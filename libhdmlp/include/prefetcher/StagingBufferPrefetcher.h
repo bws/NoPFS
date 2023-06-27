@@ -1,6 +1,7 @@
 #ifndef HDMLP_STAGINGBUFFERPREFETCHER_H
 #define HDMLP_STAGINGBUFFERPREFETCHER_H
 
+#include <condition_variable>
 #include <deque>
 #include "../utils/Sampler.h"
 #include "PrefetcherBackend.h"
